@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.containe{
+    /* background-image: url('img_VNIT.jfif'); */
+    max-width: 80%;
+    background-color: rgba(196, 185, 206, 0.062); 
+    padding: 24px;
+    margin:auto;
+}
+
+.containe h1 {
+    font-size: 40px;
+    text-align: center;
+}
+p{
+   font-size: 20px;
+   text-align: center;
+}
+
+input,textarea{
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+    margin: 11px !important;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 6px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.submitmsg{
+    color: darkgreen;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Margarine&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+
+
+.contain{
+     /* background-image: url('img_VNIT.jfif');  */
+     /* background-image: url('home_img.jpg'); */
+    max-width: 100%;
+    /* background-color: rgba(196, 185, 206, 0.699); */
+    padding: 6px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: "Margarine", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+}
+h3{
+    
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+ h4 {
+    /* font-family: "Margarine", sans-serif; */
+    font-weight: 500;
+}
+
+.contact-information h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.ig{
+     width: 100%; 
+     opacity: 0.2;
+     position: absolute;
+     z-index: -1;
+}
